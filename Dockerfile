@@ -13,4 +13,7 @@ COPY . .
 RUN poetry build && \
     /venv/bin/pip install --upgrade pip wheel setuptools &&\
     /venv/bin/pip install dist/*.whl
+
 CMD tgcf --loud
+CMD
+heroku ps:scale web=1 
