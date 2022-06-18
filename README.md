@@ -11,7 +11,7 @@ The ultimate tool to automate custom telegram message forwarding.
 </p>
 
 <p align="center">
-<a href="https://github.com/ShamilSd-ux/telesucker/Deploy-to-Heroku"><img src="https://img.shields.io/github/license/aahnik/tgcf" alt="GitHub license"></a>
+<a href="https://github.com/aahnik/tgcf/blob/main/LICENSE"><img src="https://img.shields.io/github/license/aahnik/tgcf" alt="GitHub license"></a>
 <a href="https://github.com/aahnik/tgcf/stargazers"><img src="https://img.shields.io/github/stars/aahnik/tgcf?style=social" alt="GitHub stars"></a>
 <a href="https://github.com/aahnik/tgcf/issues"><img src="https://img.shields.io/github/issues/aahnik/tgcf" alt="GitHub issues"></a>
 <img src="https://img.shields.io/pypi/v/tgcf" alt="PyPI">
@@ -21,6 +21,10 @@ The ultimate tool to automate custom telegram message forwarding.
 <a href="https://github.com/aahnik/tgcf/actions/workflows/quality.yml"><img src="https://github.com/aahnik/tgcf/actions/workflows/quality.yml/badge.svg" alt="Code Quality"></a>
 </p>
 <!-- markdownlint-enable -->
+
+<a href="https://heroku.com/deploy?template=https://github.com/ShamilSd-ux/telesucker)" target="_blank">
+        <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
 
 Live-syncer, Auto-poster, backup-bot, cloner, chat-forwarder, duplicator, ...
 
