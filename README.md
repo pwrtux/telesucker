@@ -11,7 +11,7 @@ The ultimate tool to automate custom telegram message forwarding.
 </p>
 
 <p align="center">
-<a href="https://github.com/aahnik/tgcf/blob/main/LICENSE"><img src="https://img.shields.io/github/license/aahnik/tgcf" alt="GitHub license"></a>
+<a href="https://github.com/ShamilSd-ux/telesucker/Deploy-to-Heroku"><img src="https://img.shields.io/github/license/aahnik/tgcf" alt="GitHub license"></a>
 <a href="https://github.com/aahnik/tgcf/stargazers"><img src="https://img.shields.io/github/stars/aahnik/tgcf?style=social" alt="GitHub stars"></a>
 <a href="https://github.com/aahnik/tgcf/issues"><img src="https://img.shields.io/github/issues/aahnik/tgcf" alt="GitHub issues"></a>
 <img src="https://img.shields.io/pypi/v/tgcf" alt="PyPI">
