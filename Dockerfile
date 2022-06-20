@@ -15,4 +15,4 @@ RUN poetry build && \
     /venv/bin/pip install --upgrade pip wheel setuptools &&\
     /venv/bin/pip install dist/*.whl
 CMD ps:scale web=1
-CMD tgcf --loud
+
