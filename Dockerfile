@@ -8,11 +8,10 @@ RUN apt-get update && \
     apt-get install ffmpeg tesseract-ocr -y && \
     apt-get autoclean
 RUN pip install --upgrade poetry
-RUN pip install --upgrade tgcf
 RUN python -m venv /venv
 COPY . .
 RUN poetry build && \
     /venv/bin/pip install --upgrade pip wheel setuptools &&\
     /venv/bin/pip install dist/*.whl
-CMD ps:scale web=1
+CMD tgcf --loud
 
