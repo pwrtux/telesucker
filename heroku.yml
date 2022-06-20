@@ -1,4 +1,4 @@
 build:
   docker:
     worker: Dockerfile
-       worker: heroku ps:scale web=1
+       worker: ps:scale web=1
