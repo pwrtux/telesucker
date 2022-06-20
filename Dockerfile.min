@@ -15,6 +15,7 @@ ENV PIP_DEFAULT_TIMEOUT=100 \
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 RUN apk add --no-cache gcc libffi-dev musl-dev postgresql-dev zlib zlib-dev jpeg-dev
 RUN pip install --upgrade pip poetry
+RUN pip install --upgrade pip poetry
 RUN python -m venv /venv
 COPY . .
 RUN poetry build && /venv/bin/pip install dist/*.whl
