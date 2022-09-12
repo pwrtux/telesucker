@@ -132,6 +132,8 @@ async def start_sync() -> None:
     if config.is_bot and const.REGISTER_COMMANDS:
         await client(
             functions.bots.SetBotCommandsRequest(
+                scope=types.BotCommandScopeDefault(),
+                lang_code='en',
                 commands=[
                     types.BotCommand(command=key, description=value)
                     for key, value in const.COMMANDS.items()
